@@ -6,7 +6,7 @@
 
 <meta property="og:title" content="PUBLICITYASIA"/>
 <meta property="og:type" content="website"/>
-<meta property="og:image" content="http://publicityasia.com/fbOGw.png"/>
+<meta property="og:image" content="http://publicityasia.com/publicityasia.red.png"/>
 <meta property="og:url" content="http://publicityasia.com/"/>
 <meta property="og:description" content="PUBLICITYASIA is a leading celebrity & entertainment PR firm"/>
 
@@ -14,56 +14,54 @@
 
 <style>
 body {
-background-color: #262626;
-margin: 0;
-opacity: 0
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+background: #f00;
+color: #fff;
+font: normal 12px/1.25 'Poppins' ;
+text-align: center;
 }
 
-img {
-width: 100%;
-max-width: 630px;
-vertical-align: top;
-height: auto;
-position: absolute;
-} 
-
-#logo {
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+main {
+display: flex; flex: 1;
+align-items: center;
+justify-content: center;
 }
 
-#copyright {
-bottom: 2%;
-left: 50%;
-transform: translateX(-50%);
+main img {
+max-width: 100%;
+max-height: 80vh;
+}
+
+span {
+white-space: nowrap;
+}
+
+footer {
+display: block;
+padding: 0 10vw 1rem;
 }
 
 </style>
 
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+
 </head>
 <body>
 
-<img src="prasia-copyright-2017.png" id="copyright"> 
-<img src="prasia-logos-2017.png" id="logo">
+<main >
+	<img src="https://res.cloudinary.com/manfuku/image/upload/v1506690291/publicityasia_cbdtlg.png">
+</main>
+<footer>
+	Copyright 2017 by 
+	<span>PR Asia Worldwide Communications Inc.</span> 
+	<span>All Rights Reserved.</span>
+</footer>
 
 </body>
 
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/g/
-jquery@2.2.4,
-velocity@1.2.3(velocity.min.js+velocity.ui.min.js)
-"></script>
-
-
-
-<script>
-// FADE IN BODY
-$(window).load(function() {
-$('body').delay(750).velocity("fadeIn", { 
-mobileHA: false,
-duration: 1250 }, [0.4,0.0,0.2,1.0]);
-});
-</script>
 
 </html>
